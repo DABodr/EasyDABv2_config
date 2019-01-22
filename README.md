@@ -11,6 +11,8 @@ iface eth0 inet static
 address 192.168.2.5
 netmask 255.255.255.0
 
+- sudo service networking restart
+
 
 For Debian/Raspbian Stretch:
 
