@@ -17,3 +17,7 @@ netmask 255.255.255.0
 For Debian/Raspbian Stretch:
 
 - sudo nano /etc/dhcpcd.conf
+- add:
+
+interface eth0
+static ip_address=192.168.2.5/24
