@@ -1,1 +1,1 @@
-# EasyDABv2_config
+# EasyDABv2 first use network configuration
