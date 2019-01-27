@@ -2,6 +2,10 @@
 
 First use configuration for Debian/Raspbian Jessie:
 
+Check your network LAN name:
+- sudo ifconfig
+
+Next,
 - sudo nano /etc/network/interfaces
 - add this lines:
 
@@ -16,6 +20,10 @@ First use configuration for Debian/Raspbian Jessie:
 
 For Debian/Raspbian Stretch:
 
+Check your network LAN name:
+- sudo ifconfig
+
+Next,
 - sudo nano /etc/dhcpcd.conf
 - add:
 
