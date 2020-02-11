@@ -18,7 +18,7 @@ Next,
 - sudo service networking restart
 
 
-For Debian/Raspbian Stretch:
+For Debian/Raspbian Stretch and Buster:
 
 Check your network LAN name:
 - sudo ifconfig
@@ -29,3 +29,5 @@ Next,
 
 * interface eth0
 * static ip_address=192.168.2.5/24
+
+- sudo service networking restart
